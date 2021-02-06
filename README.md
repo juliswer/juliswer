@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-Actually just studying for become in a best programmer:)
+Actually just studying for become in a better programmer:)
 
 Here are some things about me:
 
@@ -11,5 +11,5 @@ Here are some things about me:
      [Instagram] (instagram.com/juliswer)
      Twitter: twitter.com/juliswer1
      Gmail: julianswer36@gmail.com
-     [Deverer] (https://deverer.com/developer/julianswer)
+     [Deverer] (https://deverer.com/developer/julianswer "Deverer Profile")
 - ⚡ Fun fact: Learning Git on Windows I accidently deleted all my progress F
