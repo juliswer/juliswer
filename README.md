@@ -5,7 +5,6 @@
 
 
 
-
 Actually just studying for become in a better programmer:)
 
 Here are some things about me:
