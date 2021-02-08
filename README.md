@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+[![juliswer's GitHub stats](https://github-readme-stats.vercel.app/api?username=juliswer)](https://github.com/anuraghazra/github-readme-stats)
+
 
 Actually just studying for become in a better programmer:)
 
