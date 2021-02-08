@@ -4,7 +4,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=calm)](https://github.com/anuraghazra/github-readme-stats)
 
 
-
 Actually just studying for become in a better programmer:)
 
 Here are some things about me:
