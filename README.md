@@ -12,7 +12,7 @@ const julian = {
      birthday = 5th August.
 }
 ```
-- 📫 How to reach me:
+ 📫 How to reach me:
 - [Instagram](instagram.com/juliswer)
 - [Twitter](twitter.com/juliswer1)
 - [Gmail](julianswer36@gmail.com)
