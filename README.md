@@ -7,7 +7,7 @@
 const julian = {
      pronouns = He | Him
      code = C++, PHP, Javascript, CSS & HTML.
-     tools = [React.js]
+     tools = [React.js, jQuery]
      favourite_food = Milanesas
      birthday = 5th August.
 }
