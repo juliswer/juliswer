@@ -11,6 +11,86 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #414141;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #f2f2f2;
+}
+
+.hidden {
+    overflow: hidden;
+  }
+  
+  .centrado {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lds-ellipsis {
+      display: inline-block;
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+    .lds-ellipsis div {
+      position: absolute;
+      top: 33px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: rgb(143, 143, 143);
+      animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    }
+    .lds-ellipsis div:nth-child(1) {
+      left: 8px;
+      animation: lds-ellipsis1 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(2) {
+      left: 8px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(3) {
+      left: 32px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(4) {
+      left: 56px;
+      animation: lds-ellipsis3 0.6s infinite;
+    }
+    @keyframes lds-ellipsis1 {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    @keyframes lds-ellipsis3 {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+    @keyframes lds-ellipsis2 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(24px, 0);
+      }
+    }
+
 .container{
     width: 90%;
     margin: 0 auto;
@@ -164,134 +244,140 @@ body {
     font-weight: 400;
 }
 
-/*Projects*/
+/*Galeria*/
 
-
-.projects{
-    background: #f2f2f2;
+.galeria{
+    background: #e0e0e0;
 }
 
-.projects__grid{
-    display: grid;
-    height: 550px;
-    grid-template-areas: 
-    "img1 img1 img2 img3"
-    "img1 img1 img4 img5";
-    gap: 10px
-}
-
-.projects__item{
+.slide-contenedor{
+    max-width: 100%;
+    max-height: 100vh;
+    width: 100%;
+    height: auto;
     position: relative;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
-}
-
-.projects__img{
-    width: 100%;
-    height: 100%;
-    object-position: cover;
-    cursor: pointer;
-}
-
-.projects__item:nth-of-type(1){
-    grid-area: img1;
-}
-
-.projects__item:nth-of-type(2){
-    grid-area: img2;
-}
-
-.projects__item:nth-of-type(3){
-    grid-area: img3;
-}
-
-.projects__item:nth-of-type(4){
-    grid-area: img4;
-}
-
-.projects__item:nth-of-type(5){
-    grid-area: img5;
-}
-
-.projects__hover{
-    position: absolute;
-    background: #dc143c8c;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #ffffff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: translateX(100%);
-    cursor: pointer;
-    transition: transform .3s ease-in-out;
-}
-
-.projects__item:hover .projects__hover{
-    transform: translateX(0%);
-
-}
-
-.projects__icon{
-    margin-top: 10px;
-    font-size: 30px;
-}
-
-/*Testimony*/
-
-.testimony__grid{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-
-.testimony__item{
-    width: 95%;
     margin: auto;
-    background: var(--color-secondary);
-    box-shadow:  0 8px 10px rgba(66, 66,66, .5);
-    border-radius: 7px;
-    padding: 30px 25px;
-    color: #ffffff;
-    margin-bottom: 50px;
 }
 
-.testimony__person{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
+/* .miSlider{
+    display: none;
+    transition: 2s;
+    max-height: 100vh;
+} */
 
-.testimony__img{
-    width: 100px;
-    min-width: 100px;
-    height: 100px;
+.miSlider img{
+    width: 100%;
+    max-height: 100vh;
+    height: inherit;
     object-fit: cover;
-    object-position: top;
-    border-radius: 50%;
-    border: 3px solid #ffffff;
-    margin-right: 30px;
+    vertical-align: top;
+    transition: 2s;
 }
 
-.testimony__name{
-    font-weight: 1.5rem;
+.direcciones{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
-.testimony__verification{
-    color: #E0AFA0;
-    font-weight: 700;
+.direcciones a{
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.direcciones a:hover{
+    background: rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+
+.barras{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     margin-bottom: 15px;
 }
 
-.testimony__review{
-    font-weight: 300;
+.barra{
+    cursor: pointer;
+    height: 2px;
+    width: 25px;
+    margin: 0 2px;
+    background: #dcdde1;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.active{
+    background-color: #e74c3c;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+/*Form*/
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid var(--color-primary);
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: rgba(128, 128, 128, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input[type=text],
+.input[type=email]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.input[type="submit"] {
+    width: 1200px;
+    border-color: var(--color-primary);
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    font-weight: 600;
+  }
+
+  .input[type="submit"]:hover {
+    box-shadow: 0 0 40px 40px var(--color-primary) inset;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 /*Footer*/
