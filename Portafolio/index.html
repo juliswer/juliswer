@@ -17,9 +17,9 @@
     <header class="hero">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="nav__items nav__items--cta" id="boton"> Contáctame ahora</a>
-                <a href="#" class="nav__items">Sobre mi</a>
-                <a href="#" class="nav__items">Proyectos</a>
+                <a href="#" id="enlace-contacto" class="nav__items nav__items--cta"> Contáctame ahora</a>
+                <a href="#" id="enlace-about" class="nav__items">Sobre mi</a>
+                <a href="#" id="enlace-proyectos" class="nav__items">Proyectos</a>
             </nav>
             <section class="hero__container">
                 <div class="hero__texts">
@@ -34,7 +34,7 @@
 
     <main>
 
-        <section class="presentation__container">
+        <section class="presentation__container" id="presentation">
             <img src="/paginas_recreativas/Portafolio/assets/Julián.jpg" class="presentation__picture">
             <h2 class="subtitle">Mi nombre es Julián Ariel Swerdlin</h2>
             <p class="presentation__copy">Si bien el mundo de la programación fue algo lo cual me llamó la atención desde una temprana edad, fue recién mis 15 años de edad en los cuales me adentré en este mundo, y es ahora, con 17 años, que me siento listo para poder utilizar mis conocimientos con un fin realizador.</p>
@@ -61,7 +61,7 @@
             </div>
         </section>
 
-        <section class="galeria">
+        <section class="galeria" id="galeria">
             <div class="container">
                 <h2 class="subtitle">Galería de proyectos</h2>
                 <div class="slide-contenedor">
@@ -75,8 +75,8 @@
                          <img src="/Estudio/Diseno_web/AlexCG_estudio/galeria_slider/assets/jonas-leupe-NmVC9Le16eo-unsplash.jpg" alt="">
                     </div>
                     <div class="direcciones">
-                        <a href="#" class="atras" id="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-                        <a href="#" class="adelante" id="adelante" onclick="avanzaSlide(+1)" >&#10095;</a>
+                        <div class="atras" id="atras" onclick="avanzaSlide(-1)">&#10094;</div>
+                        <div href="" class="adelante" id="adelante" onclick="avanzaSlide(+1)" >&#10095;</div>
                     </div>
                     <div class="barras">
                         <span class="barra active" onclick="posicionSlide(1)"></span>
@@ -88,7 +88,7 @@
         </section>
 
         <section class="form container">
-            <h2 class="subtitle">Contact us</h2>
+            <h2 class="subtitle">Contact me</h2>
             <form action="" class="form">
                 <input class="input" type="text" name="" id="" placeholder="Nombre">
                 <input class="input" type="email" name="" id="" placeholder="Email">
@@ -101,10 +101,10 @@
     <footer class="footer">
         <div class="container footer__grid">
             <nav class="nav nav--footer">
-                <a class="nav__items nav__items--footer" href="">Inicio</a>
-                <a class="nav__items nav__items--footer" href="">Sobre mi</a>
-                <a class="nav__items nav__items--footer" href="">Mis skills</a>
-                <a class="nav__items nav__items--footer" href="">Proyectos</a>
+                <a class="nav__items nav__items--footer" href="#" id="enlace-inicio">Inicio</a>
+                <a class="nav__items nav__items--footer" href="#" id="enlace-about2">Sobre mi</a>
+                <a class="nav__items nav__items--footer" href="#" id="enlace-skills">Mis skills</a>
+                <a class="nav__items nav__items--footer" href="#" id="enlace-proyectos2">Proyectos</a>
 
             </nav>
 
@@ -123,7 +123,7 @@
                 </div>
             </section>
         </div>
-        <a href="#" class="btn-flotante">Contáctame</a>
+        <a href="/Estudio/Diseno_web/AlexCG_estudio/formulario_de_contacto/formulario_de_contacto.html" class="btn-flotante" id="enlace-contacto2">Contáctame</a>
     </footer>
     
     <script src="/paginas_recreativas/Portafolio/jquery.js"></script>

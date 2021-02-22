@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero{
-    height: 100vh;
+    height: 95vh;
     background-image: var(--background), url('../assets/valeriy-khan-0sUe24rw_Fg-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,16 +286,17 @@ body::-webkit-scrollbar-thumb {
     font-size: 20px;
 }
 
-.direcciones a{
+.direcciones div{
     color: #ffffff;
     display: inline-block;
     padding: 20px;
     text-decoration: none;
 }
 
-.direcciones a:hover{
+.direcciones div:hover{
     background: rgba(0, 0, 0, .5);
     transition: .5s;
+    cursor: pointer;
 }
 
 .barras{
