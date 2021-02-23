@@ -1,5 +1,7 @@
 ![juliswer's GitHub stats](https://github-readme-stats.vercel.app/api?username=juliswer&show_icons=true&theme=calm)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=calm)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=calm)](https://github.com/juliswer/Learning.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=random-pages&theme=calm)](https://github.com/juliswer/random-pages.git)
 
 ### Hi there👋!
 
