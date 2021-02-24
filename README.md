@@ -10,7 +10,7 @@
 const julian = {
      pronouns = He | Him.
      code = C++, PHP, Javascript, CSS & HTML.
-     tools = [React.js, jQuery, Bootstrap 4]
+     tools = [React.js, jQuery, Bootstrap 4 & 5]
      birthday = 5th August.
 }
 ```
