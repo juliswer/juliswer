@@ -4,8 +4,6 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=calm)](https://github.com/juliswer/Learning.git)
 
 
-### Hi there👋!
-
 ```js
 const julian = {
      pronouns = He | Him.
