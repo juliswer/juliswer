@@ -63,3 +63,12 @@
 	});
 */
 
+enviar.addEventListener("click", () => {
+    Swal.fire({
+        title: "¡Su correo ha sido enviado exitosamente!",
+        text: "A la brevedad será respondido su mensaje. No olvide chequear la casilla de correos",
+        icon: 'success',
+        showCloseButton: true,
+        timerProgressBar: true,
+    })
+})

@@ -1,57 +1,12 @@
-const enviar = document.getElementById("enviar")
-const expresiones = {
-	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	mensaje: /^[a-zA-ZÀ-ÿ\s]{1,140}$/, // 7 a 14 numeros.
-}
-const campos = {
-    correo: false,
-    mensaje: false
-}
-
-const validarFomulario = (e) => {
-    switch (e.target.name) {
-        case "usuario":
-            validarCampo(expresiones.usuario, e.target, 'usuario');
-        break;
-        case "nombre":
-            validarCampo(expresiones.nombre, e.target, 'nombre');
-        break;
-        case "password":
-            validarCampo(expresiones.password, e.target, 'password');
-            validarPassword2();
-        break;
-        case "password2":
-            validarPassword2();
-        break;
-        case "correo":
-            validarCampo(expresiones.correo, e.target, 'correo')
-        break;
-        case "telefono":
-            validarCampo(expresiones.telefono, e.target, 'telefono')
-        break;
-    }
-}
-
-enviar.addEventListener("click", () => {
-    Swal.fire({
-        title: "¡Su correo ha sido enviado exitosamente!",
-        text: "A la brevedad será respondido su mensaje. No olvide chequear la casilla de correos",
-        icon: 'success',
-        showCloseButton: true,
-        timer: 5000,
-        timerProgressBar: true,
-    })
-})
-
 const atras = document.getElementById("atras");
 const adelante = document.getElementById("adelante");
 
 atras.addEventListener("click", (e) => {
-    e.preventDefault
+    e.preventDefault()
 })
 
 adelante.addEventListener("click", (e) => {
-    e.preventDefault
+    e.preventDefault()
 })
 
 let indice = 1;
@@ -99,7 +54,7 @@ window.addEventListener('load', function(){
 $('#enlace-contacto').on('click', function(e){
     e.preventDefault();
     $('html, body').animate({
-        scrollTop: 3250
+        scrollTop: 3335
     }, 600);
 });
 
@@ -141,7 +96,7 @@ $('#enlace-skills').on('click', function(e){
 $('#enlace-proyectos2').on('click', function(e){
     e.preventDefault();
     $('html, body').animate({
-        scrollTop: 2201
+        scrollTop: 2300
     }, 600);
 });
 
@@ -150,4 +105,49 @@ $('#enlace-contacto2').on('click', function(e){
     $('html, body').animate({
         scrollTop: 3250
     }, 600);
+});
+
+const formulario = document.getElementById('formulario');
+const inputs = document.querySelectorAll('#formulario input');
+
+const expresiones = {
+    nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+    asunto: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+	mensaje: /^[a-zA-ZÀ-ÿ\s]{10,140}$/, // Letras y espacios, pueden llevar acentos.
+}
+
+const campos = {
+    nombre: false,
+    asunto: false,
+    correo: false,
+    mensaje: false
+}
+
+const validarFomulario = (e) => {
+    switch (e.target.name) {
+        case "nombre":
+            validarCampo(expresiones.nombre, e.target, 'usuario');
+        break;
+        case "asunto":
+            validarCampo(expresiones.asunto, e.target, 'nombre');
+        break;
+        case "correo":
+            validarCampo(expresiones.correo, e.target, 'correo')
+        break;
+        case "mensaje":
+            validarCampo(expresiones.mensaje, e.target, 'telefono')
+        break;
+    }
+}
+
+
+
+inputs.forEach((inputs) => {
+    inputs.addEventListener('keyup', validarFomulario);
+    inputs.addEventListener('blur', validarFomulario);
+});
+
+formulario.addEventListener('submit', (e) => {
+    e.preventDefault();
 });
