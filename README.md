@@ -6,9 +6,9 @@
 
 ```js
 const julian = {
-     pronouns = He | Him.
-     code = C++, PHP, Javascript, CSS & HTML.
-     tools = [React.js, jQuery, Bootstrap]
-     birthday = 5th August.
+     pronouns: He | Him,
+     code: C++, PHP, Python,Javascript, CSS & HTML,
+     tools: [React.js, jQuery, Bootstrap, SaaS],
+     birthday: 5th August
 }
 ```
