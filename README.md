@@ -8,7 +8,7 @@
 const julian = {
      pronouns: He || Him,
      code: C++, PHP, Python,Javascript, CSS & HTML,
-     tools: [React.js, jQuery, Bootstrap, SaaS],
+     tools: [React.js, jQuery, AJAX, AXIOS,Bootstrap, SaaS],
      birthday: 5th August
 }
 ```
