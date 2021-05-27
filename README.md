@@ -7,8 +7,8 @@
 ```js
 const julian = {
      pronouns: He || Him,
-     code: [C++, PHP, SQL, Python, TypeScript, Node.js, Javascript, CSS & HTML],
-     tools: [React, Next.js, jQuery, AJAX, AXIOS, Vue, Styled-components, Material-ui, Angular, Bootstrap, SaaS],
+     code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Javascript, CSS & HTML],
+     tools: [Express.js, React, Next.js, jQuery, AJAX, AXIOS, Vue, Styled-components, Material-ui, Angular, Bootstrap, SaaS],
      birthday: 5th August
 }
 ```
