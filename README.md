@@ -9,7 +9,7 @@ const julian = {
      pronouns: He || Him,
      areas: [Web & Mobile Development],
      code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Javascript, CSS & HTML],
-     tools: [Express.js, React, React-Native, Next.js, jQuery, AJAX, AXIOS, Vue, Styled-components, Material-ui, Angular, Bootstrap, SaaS],
+     tools: [Express.js, React, React-Native, Ionic, Next.js, jQuery, AJAX, AXIOS, Vue, Styled-components, Material-ui, Angular, Bootstrap, SaaS],
      birthday: 5th August
 }
 ```
