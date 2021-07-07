@@ -13,3 +13,10 @@ const julian = {
      birthday: 5th August
 }
 ```
+## 📇 Useful Links
+
+<p align='left'>
+<a target="_blank" href="https://juliswer.github.io/portafolios3"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/dev.png?raw=true" alt="My website" ></a>&nbsp;&nbsp;
+<a target="_blank" href="https://twitter.com/juliswer1"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/twitter.png?raw=true" alt="Twitter logo" ></a>&nbsp;&nbsp;
+<a target="_blank" href="https://www.linkedin.com/in/julian-swerdlin/"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/linkedin.png?raw=true" alt="Linkedin logo"></a>&nbsp;&nbsp;
+</p>
