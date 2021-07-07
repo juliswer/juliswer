@@ -5,7 +5,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=react)](https://github.com/juliswer/Learning.git)
 
 
-## 📇 Something about me
+## 💬 Something about me
 ```js
 const julian = {
      pronouns: He || Him,
