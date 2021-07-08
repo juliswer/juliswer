@@ -19,6 +19,6 @@ const julian = {
 ## 📇 Useful Link
 
 <p align='center'>
-     <p>If you want to contract me:</p>
+     <p>If you want to hire me:</p>
 <a target="_blank" href="https://www.linkedin.com/in/julian-swerdlin/"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/linkedin.png?raw=true" alt="Linkedin logo"></a>&nbsp;&nbsp;
 </p>
