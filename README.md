@@ -4,6 +4,8 @@
 ## 💬 Some nice repositories
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=random-pages&theme=react)](https://github.com/juliswer/random-pages.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=react)](https://github.com/juliswer/Learning.git)
+## 🗄️ Last project being developed
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=mern-crud&theme=react)](https://github.com/juliswer/mern-crud.git)
 
 
 ## 💬 Something about me
