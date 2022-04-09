@@ -5,7 +5,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=random-pages&theme=tokyonight)](https://github.com/juliswer/random-pages.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=tokyonight)](https://github.com/juliswer/Learning.git)
 ## 🗄️ Last project being developed
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=memories-project-mern&theme=tokyonight)](https://github.com/juliswer/memories-project-mern.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=web3.0-metamask-crypto&theme=tokyonight)](https://github.com/juliswer/web3.0-metamask-crypto.git)
 
 
 ## 💬 Something about me
