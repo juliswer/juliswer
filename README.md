@@ -1,6 +1,6 @@
 ## &#x1f4c8; My GitHub Stats
 ![juliswer's GitHub stats](https://github-readme-stats.vercel.app/api?username=juliswer&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=tokyonight&hide=css,jupyter%20notebook,html,scss)
 ## 💬 Some nice repositories
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=random-pages&theme=tokyonight)](https://github.com/juliswer/random-pages.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=tokyonight)](https://github.com/juliswer/Learning.git)
