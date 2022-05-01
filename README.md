@@ -5,7 +5,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=random-pages&theme=tokyonight)](https://github.com/juliswer/random-pages.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=Learning&theme=tokyonight)](https://github.com/juliswer/Learning.git)
 ## 🗄️ Last project being developed
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=nodejs-sequelize-restapi&theme=tokyonight)](https://github.com/juliswer/nodejs-sequelize-restapi)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=react-firebase-auth&theme=tokyonight)](https://github.com/juliswer/react-firebase-auth.git)
 
 
 ## 💬 Something about me
