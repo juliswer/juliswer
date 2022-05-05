@@ -12,10 +12,11 @@
 ```js
 const julian = {
      pronouns: He || Him,
-     areas: [Web & Mobile Development],
+     areas: [Web, Mobile & Desktop Development],
      code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Kotlin, Java, Javascript, CSS & HTML],
-     tools: [Electron, Express.js, React, React-Native, Ionic, Next.js, jQuery, Vue, Styled-components, Material-ui, Angular, Bootstrap, TailwindCSS, SaaS],
-     birthday: 5th August
+     tools: [Electron, Express.js, React, React-Native, Ionic, Next.js, jQuery, Vue, Angular],
+     uiTools: [Tailwind.css, Material-ui, Styled-components, Bootstrap, Saas],
+     birthday: "5th August"
 }
 ```
 ## 📇 Useful Link
