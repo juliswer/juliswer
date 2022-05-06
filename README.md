@@ -1,14 +1,14 @@
-## &#x1f4c8; My GitHub Stats
+## &#x1f4c8; | My GitHub Stats
 ![juliswer's GitHub stats](https://github-readme-stats.vercel.app/api?username=juliswer&show_icons=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=tokyonight&hide=css,jupyter%20notebook,html,scss)
-## 💬 Some nice repositories
+## 🧑‍💼 | Some nice repositories
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=web3.0-metamask-crypto&theme=tokyonight)](https://github.com/juliswer/web3.0-metamask-crypto.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=shareme_blogapp&theme=tokyonight)](https://github.com/juliswer/shareme_blogapp.git)
-## 🗄️ Last project being developed
+## 🔨 | Last project being developed
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=eth-contract-sample&theme=tokyonight)](https://github.com/juliswer/eth-contract-sample.git)
 
 
-## 💬 Something about me
+## 🤙🏼 Something about me
 ```js
 const julian = {
      pronouns: He || Him,
@@ -19,7 +19,7 @@ const julian = {
      birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`)
 }
 ```
-## 📇 Useful Link
+## ✨ Useful Link
 
 <p align='center'>
      <p>If you want to hire me:</p>
