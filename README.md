@@ -8,7 +8,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=eth-contract-sample&theme=tokyonight)](https://github.com/juliswer/eth-contract-sample.git)
 
 
-## 🤙🏼 Something about me
+## 🤙🏼 | Something about me
 ```js
 const julian = {
      pronouns: He || Him,
@@ -19,7 +19,7 @@ const julian = {
      birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`)
 }
 ```
-## ✨ Useful Link
+## ✨ | Useful Link
 
 <p align='center'>
      <p>If you want to hire me:</p>
