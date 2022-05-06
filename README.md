@@ -19,9 +19,9 @@ const julian = {
      birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`)
 }
 ```
-## ✨ | Useful Link
+## ✨ | Useful Links
 
-<p align='center'>
-     <p>If you want to hire me:</p>
-<a target="_blank" href="https://www.linkedin.com/in/julian-swerdlin/"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/linkedin.png?raw=true" alt="Linkedin logo"></a>&nbsp;&nbsp;
+<p align='left'>
+     <a target="_blank" href="https://www.linkedin.com/in/julian-swerdlin/"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/linkedin.png?raw=true" alt="Linkedin logo"></a>&nbsp;&nbsp;
+<a target="_blank" download href="https://drive.google.com/file/d/1c8Bjzu2OzrADt_URjK5Nh3ffRB-_0e_2/view?usp=sharing"><img height="30" src="https://cdn-icons-png.flaticon.com/512/3135/3135800.png" alt="Linkedin logo"></a>&nbsp;&nbsp;
 </p>
