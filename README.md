@@ -16,7 +16,7 @@ const julian = {
      code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Kotlin, Java, Javascript, CSS & HTML],
      tools: [Electron, Express.js, React, React-Native, Ionic, Next.js, jQuery, Vue, Angular],
      uiTools: [Tailwind.css, Material-ui, Styled-components, Bootstrap, Saas],
-     birthday: new Date(`August 05, 2004 ${hourBorn}`)
+     birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`)
 }
 ```
 ## 📇 Useful Link
