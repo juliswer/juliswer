@@ -5,7 +5,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=web3.0-metamask-crypto&theme=tokyonight)](https://github.com/juliswer/web3.0-metamask-crypto.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=shareme_blogapp&theme=tokyonight)](https://github.com/juliswer/shareme_blogapp.git)
 ## 🔨 | Last project being developed
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=eth-contract-sample&theme=tokyonight)](https://github.com/juliswer/eth-contract-sample.git)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=opensea-blockchain-clone&theme=tokyonight)](https://github.com/juliswer/opensea-blockchain-clone)
 
 
 ## 🤙🏼 | Something about me
