@@ -9,14 +9,14 @@
 
 
 ## 🤙🏼 | Something about me
-```js
+```ts
 const julian = {
-     pronouns: He || Him,
-     areas: [Web, Mobile & Desktop Development],
-     code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Kotlin, Java, Javascript, CSS & HTML],
-     tools: [Electron, Express.js, React, React-Native, Ionic, Next.js, jQuery, Vue, Angular],
-     uiTools: [Tailwind.css, Material-ui, Styled-components, Bootstrap, Saas],
-     birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`)
+     pronouns: [He, Him] as PronounsType,
+     areas: [Web, Mobile, Desktop Development] as AreasType,
+     code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Kotlin, Java, Javascript, CSS, HTML] as CodeType,
+     tools: [Electron, Express.js, React, React-Native, Ionic, Next.js, jQuery, Vue, Angular] as ToolsType,
+     uiTools: [Tailwind.css, Material-ui, Styled-components, Bootstrap, Saas] as UiToolsType,
+     birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`) as BirthdayType
 }
 ```
 ## ✨ | Useful Links
