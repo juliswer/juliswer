@@ -25,3 +25,5 @@ const julian = {
      <a target="_blank" href="https://www.linkedin.com/in/julian-swerdlin/"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/linkedin.png?raw=true" alt="Linkedin logo"></a>&nbsp;&nbsp;
 <a target="_blank" href="https://drive.google.com/file/d/11K03hmdc3sKw7n0uZ-bZy5kB9iEoAVg-/view?usp=sharing"><img height="30" src="https://cdn-icons-png.flaticon.com/512/3135/3135800.png" alt="Resume Julian Swerdlin"></a>&nbsp;&nbsp;
 </p>
+
+![](https://komarev.com/ghpvc/?username=juliswer)
