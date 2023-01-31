@@ -1,3 +1,5 @@
+![](https://komarev.com/ghpvc/?username=juliswer)
+
 ## &#x1f4c8; | My GitHub Stats
 ![juliswer's GitHub stats](https://github-readme-stats.vercel.app/api?username=juliswer&show_icons=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=tokyonight&hide=css,jupyter%20notebook,html,scss)
@@ -26,4 +28,4 @@ const julian = {
 <a target="_blank" href="https://drive.google.com/file/d/11K03hmdc3sKw7n0uZ-bZy5kB9iEoAVg-/view?usp=sharing"><img height="30" src="https://cdn-icons-png.flaticon.com/512/3135/3135800.png" alt="Resume Julian Swerdlin"></a>&nbsp;&nbsp;
 </p>
 
-![](https://komarev.com/ghpvc/?username=juliswer)
+
