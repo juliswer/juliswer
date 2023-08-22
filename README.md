@@ -11,15 +11,24 @@
 
 
 ## 🤙🏼 | Something about me
-```ts
-const julian = {
-     pronouns: [He, Him],
-     areas: [Web, Mobile, Desktop Development],
-     code: [C++, PHP, SQL, NoSQL, Python, TypeScript, Node.js, Kotlin, Java, Javascript, CSS, HTML],
-     tools: [Electron, Express.js, React, React-Native, Ionic, Next.js, jQuery, Vue, Angular],
-     uiTools: [Tailwind.css, Material-ui, Styled-components, Bootstrap, Saas],
-     birthday: new Date(`August 05, 2004 ${process.env.hourBorn}`)
-} as JulianObject
+```kt
+data class JulianObject(
+    val pronouns: List<Pronouns>,
+    val areas: List<Areas>,
+    val code: List<Languages>,
+    val tools: List<Frameworks>,
+    val uiTools: List<UITools>,
+    val birthday: Date
+)
+
+val julian = JulianObject(
+    pronouns = listOf("He", "Him"),
+    areas = listOf("Web", "Mobile", "Desktop Development"),
+    code = listOf("C++", "PHP", "SQL", "NoSQL", "Python", "TypeScript", "Node.js", "Kotlin", "Java", "Javascript", "CSS", "HTML"),
+    tools = listOf("Electron", "Express.js", "React", "React-Native", "Ionic", "Next.js", "jQuery", "Vue", "Angular"),
+    uiTools = listOf("Tailwind.css", "Material-ui", "Styled-components", "Bootstrap", "Saas"),
+    birthday = SimpleDateFormat("MMMM dd, yyyy HH:mm:ss").parse("August 05, 2004 ${System.getenv("hourBorn")}")
+)
 ```
 ## ✨ | Useful Links
 
