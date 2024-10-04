@@ -34,7 +34,7 @@ val julian = JulianObject(
 
 <p align='left'>
      <a target="_blank" href="https://www.linkedin.com/in/julian-swerdlin/"><img height="30" src="https://github.com/Raagh/Raagh/raw/master/linkedin.png?raw=true" alt="Linkedin logo"></a>&nbsp;&nbsp;
-<a target="_blank" href="https://drive.google.com/file/d/1UhNaegziLHrz_y8GOVXUDt2ntPGC0ame/view?usp=sharing"><img height="30" src="https://cdn-icons-png.flaticon.com/512/3135/3135800.png" alt="Resume Julian Swerdlin"></a>&nbsp;&nbsp;
+<a target="_blank" href="https://drive.google.com/file/d/12PABddtEWMXnT1TjPPD1wZAVJUKTqDU3/view?usp=sharing"><img height="30" src="https://cdn-icons-png.flaticon.com/512/3135/3135800.png" alt="Resume Julian Swerdlin"></a>&nbsp;&nbsp;
 </p>
 
 
