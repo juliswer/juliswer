@@ -4,8 +4,8 @@
 ![juliswer's GitHub stats](https://github-readme-stats.vercel.app/api?username=juliswer&show_icons=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juliswer&layout=compact&theme=tokyonight&hide=css,jupyter%20notebook,html,scss,vue,javascript,ejs,handlebars)
 ## 🧑‍💼 | Some nice repositories
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=algorithms-utn-2024&theme=tokyonight)](https://github.com/juliswer/algorithms-utn-2024.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=web3.0-metamask-crypto&theme=tokyonight)](https://github.com/juliswer/web3.0-metamask-crypto.git)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=shareme_blogapp&theme=tokyonight)](https://github.com/juliswer/shareme_blogapp.git)
 ## 🔨 | Last project being developed
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=opensea-blockchain-clone&theme=tokyonight)](https://github.com/juliswer/opensea-blockchain-clone)
 
