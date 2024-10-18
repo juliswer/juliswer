@@ -7,7 +7,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=algorithms-utn-2024&theme=tokyonight)](https://github.com/juliswer/algorithms-utn-2024.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=web3.0-metamask-crypto&theme=tokyonight)](https://github.com/juliswer/web3.0-metamask-crypto.git)
 ## 🔨 | Last project being developed
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=opensea-blockchain-clone&theme=tokyonight)](https://github.com/juliswer/opensea-blockchain-clone)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliswer&repo=tp-ayed-2024&theme=tokyonight)](https://github.com/juliswer/tp-ayed-2024.git)
 
 
 ## 🤙🏼 | Something about me
